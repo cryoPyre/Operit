@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.openclaw_weixin_bundle",
+  "version": "0.1.0",
+  "main": "main.js",
+  "display_name": {
+    "zh": "OpenClaw 微信转发",
+    "en": "OpenClaw Weixin Forwarder"
+  },
+  "description": {
+    "zh": "将 Operit AI 完成回复转发到 OpenClaw 微信通道。",
+    "en": "Forward completed Operit AI replies to the OpenClaw Weixin channel."
+  },
+  "enabled_by_default": false,
+  "subpackages": [
+    {
+      "id": "openclaw_weixin",
+      "entry": "packages/openclaw_weixin.js",
+      "enabled_by_default": false,
+      "display_name": {
+        "zh": "OpenClaw 微信转发工具",
+        "en": "OpenClaw Weixin Forwarder Tools"
+      }
+    }
+  ]
+}
